@@ -423,3 +423,19 @@ body {
     transform: rotate(0deg);
   }
 }
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Adjusts the space between the logos */
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+}
+
+.social-links img {
+  width: 50px; /* Adjust size as needed */
+  height: auto;
+}
