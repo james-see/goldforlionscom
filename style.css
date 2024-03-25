@@ -439,3 +439,14 @@ body {
   width: 50px; /* Adjust size as needed */
   height: auto;
 }
+
+/* Media query for devices with a width of up to 768px */
+@media (max-width: 768px) {
+  .social-links img {
+    width: 30px; /* Smaller size for mobile */
+  }
+  
+  .social-links {
+    gap: 10px; /* Smaller gap for mobile */
+  }
+}
