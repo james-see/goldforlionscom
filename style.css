@@ -426,24 +426,25 @@ body {
 
 .social-links {
   display: flex;
-  justify-content: center;
+  justify-content: center; /* This centers the contents (the icons) within the container */
   align-items: center;
   gap: 20px; /* Adjusts the space between the logos */
-  width: 100%;
   position: absolute;
+  left: 0;
+  right: 0; /* These ensure the container spans the full width */
   bottom: 0;
   padding: 20px;
 }
 
 .social-links img {
-  width: 50px; /* Adjust size as needed */
+  width: 50px; /* Adjust size as needed for desktop */
   height: auto;
 }
 
 /* Media query for devices with a width of up to 768px */
 @media (max-width: 768px) {
   .social-links img {
-    width: 30px; /* Smaller size for mobile */
+    width: 80px; /* Smaller size for mobile */
   }
   
   .social-links {
