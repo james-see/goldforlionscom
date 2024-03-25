@@ -433,11 +433,11 @@ body {
   left: 0;
   right: 0; /* These ensure the container spans the full width */
   bottom: 0;
-  padding: 20px;
+  padding: 50px;
 }
 
 .social-links img {
-  width: 50px; /* Adjust size as needed for desktop */
+  width: 80px; /* Adjust size as needed for desktop */
   height: auto;
 }
 
